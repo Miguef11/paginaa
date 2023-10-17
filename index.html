@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaginaWeb</title>
     <link href="estilos.css" rel="Stylesheet"> 
+    <link href="sty.css" rel="Stylesheet">
 </head>
 <body>
     <header>
@@ -14,16 +15,19 @@
                 <h2>Aqui encontraras telefonos, laptops etc...</h2>
             </div>
             <div class="divImagen">
-                <img src="lm.JPG" height="200px">
+                <img src="logo.jpeg" height="200px">
             </div>
         </header>
        <nav>
         <a href="#">INICIO </a>
-        <a href="#">PRODUCTOS</a>
-        <a href="#">CONTACTO</a>
+        <a href="#PRODUCTOS">PRODUCTOS</a>
+        <a href="#paq">PAQUETES</a>
+        <a href="#contacto">CONTACTO</a>
 
        
     </nav>
+   
+    
         <main>
             <aside>
                 <h2>Acerca de nosotros</h2>
@@ -31,30 +35,142 @@
                 <img src="tec.jpeg" height="200px" width="200">
             </aside>
             <section>
-                <h1>PRODUCTOS</h1>
-                <article>
-                    <h2>MacBook Air</Article></h2>
-                    <p>La MacBook Air es una computadora portátil de Apple que se caracteriza por su delgadez y ligereza. Actualmente, se encuentra disponible en dos modelos: uno con chip M1 y otro con chip M2 1. La versión con chip M1 es la más accesible y está diseñada para realizar tareas cotidianas, como navegar por la web, enviar correos electrónicos, editar documentos y reproducir contenido multimedia. Por otro lado, la versión con chip M2 es más potente y está diseñada para realizar tareas más exigentes, como edición de video y diseño gráfico.
-
-                        Ambos modelos tienen una pantalla Retina de alta resolución que ofrece una calidad de imagen excepcional. Además, cuentan con una cámara FaceTime HD para videollamadas y un sistema de micrófonos que reduce el ruido ambiental. La batería tiene una duración de hasta 18 horas en el modelo con chip M1 y hasta 24 horas en el modelo con chip M2 12.
+                <h1 id="PRODUCTOS">PRODUCTOS</h1>
+                <div class="div cont-tarjetas">
+                    <div class="tarjeta">
+                        <div class="titulo-tarjeta">IPHONE 15 PRO MAX </div>
+                        <div class="cuerpo-tarjeta">
+                            <img src="iphone.jpeg" height="200px" width="200px"/>
+                            <p class="descripcion">¡LO MAS NUEVO DE IPHONE!</p>
+                            <p class="precio">Precio: <b>$18,500</b></p>
+                            <button>Comprar</button>
+                            <button>LEER MAS</button>
+                        </div>
+                        <div class="pie-tarjeta"> Oferta de hoy</div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="titulo-tarjeta">SAMSUNG GALAXY S20 </div>
+                        <div class="cuerpo-tarjeta">
+                            <img src="https://cdn11.bigcommerce.com/s-ss31ap/images/stencil/1280x1280/products/7488/33508/612B41AhyOL._AC_SL1500___39143.1596772351.1280.1280__07191__59722.1630473041.jpg?c=2" height="200px" width="200px"/>
+                            <p class="descripcion">¡DISFRUTA DE LO MEJOR DE SAMSUNG!</p>
+                            <p class="precio">Precio: <b>$6,500</b></p>
+                            <button>Comprar</button>
+                            <button>Leer más</button>
+                        </div>
+                        <div class="pie-tarjeta"> Oferta de hoy</div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="titulo-tarjeta">AIRPODS PRO</div>
+                        <div class="cuerpo-tarjeta">
+                            <img src="https://www.att.com/scmsassets/global/accessories/audio/apple/apple-airpods-pro-with-magsafe/defaultimage/New-White-hero-zoom.png" height="200px" width="200px"/>
+                            <p class="descripcion">¡LO MEJOR PARA TUS OIDOS</p>
+                            <p class="precio">Precio: <b>$2,500</b></p>
+                            <button>Comprar</button>
+                            <button>Leer más</button>
+                        </div>
                         
-                        En cuanto a almacenamiento, ambos modelos están disponibles en configuraciones de hasta 2 TB 12. También cuentan con un sensor Touch ID para desbloquear la computadora y realizar compras en línea de manera segura.</p>
-                    <img src="mcbook.jpg" height="200px" width="200px">
-                    <button class="b1">COMPRAR</button>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="titulo-tarjeta">MACBOOK AIR </div>
+                        <div class="cuerpo-tarjeta">
+                            <img src="mcbook.jpg" height="200px" width="200px"/>
+                            <p class="descripcion">LA MEJOR LAPTOP EN EL MERCADO</p>
+                            <p class="precio">Precio: <b>$19,500</b></p>
+                            <button>Comprar</button>
+                            <button>Leer más</button>
+                        </div>
+                        <div class="pie-tarjeta"> Oferta de hoy</div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="titulo-tarjeta">HUEAWEI NOVA Y60</div>
+                        <div class="cuerpo-tarjeta">
+                            <img src="https://magazinedebut.com/wp-content/uploads/2022/09/huawei-nova-y60-kv.png" height="200px" width="200px"/>
+                            <p class="descripcion">LO DE GAMA ALTA!</p>
+                            <p class="precio">Precio: <b>$10,500</b></p>
+                            <button>Comprar</button>
+                            <button>Leer más</button>
+                        </div>
+                        <div class="pie-tarjeta"> Oferta de hoy</div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="titulo-tarjeta">AUDIFONOS BEATS </div>
+                        <div class="cuerpo-tarjeta">
+                            <img src="https://www.beatsbydre.com/content/dam/beats/web/product/headphones/solo3-wireless/pdp/solo3-pdp-p02.png.large.2x.png" height="200px" width="200px"/>
+                            <p class="descripcion">AUDIFONOS ON-EAR PARA TODOS LOS DIAS</p>
+                            <p class="precio">Precio: <b>$5,500</b></p>
+                            <button>Comprar</button>
+                            <button>Leer más</button>
+                            
+                        </div>
+                        
+                    </div>
+                    <article class="tab">
+                     
+                    <h1 id="paq"> PAQUETES</h1>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>PRODUCTOS</th>
+                                
+                                <th>PRECIO</th>
+                        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Iphone 15 pro max</td>
+                                
+                                <td>$18,500</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>AIRPODS PRO</td>
+                                
+                                <td>$2,500</td>
+                               
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+            
+                                <th>TOTAL DE PRODUCTOS: 2</th>
+                                <tH>PRECIO TOTAL: $20,000</tH>
+                                <td></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="img"><br>><img src="https://support.apple.com/library/content/dam/edam/applecare/images/es_MX/airpods/ios16-iphone13-pro-airpods-setup.png" width="150px"></div>
                 </article>
-                <article>
-                    <h2>Iphone 13 pro max</h2>
-<p>Este modelo cuenta con una pantalla Super Retina XDR de 6.7 pulgadas con tecnología ProMotion y una resolución de 2778 x 1284 pixeles a 458 ppi 1. La pantalla también cuenta con la tecnología HDR True Tone y una amplia gama de colores (P3) 1. Además, la pantalla está protegida por Ceramic Shield, que es más resistente que cualquier vidrio de smartphone 1.
-
-    El iPhone 13 Pro Max está disponible en cuatro acabados: grafito, oro, plata y azul Sierra 1. Tiene un diseño de acero inoxidable con parte posterior de vidrio mate texturizado 1. En cuanto a almacenamiento, el iPhone 13 Pro Max está disponible en configuraciones de hasta 1 TB 1.
-    
-    El iPhone 13 Pro Max cuenta con el chip A15 Bionic, que es el chip más rápido en cualquier smartphone 1. También tiene un sistema de cámaras Pro de 12 MP con teleobjetivo, gran angular y ultra gran angular 1. El sistema de cámaras también cuenta con un zoom óptico de 3x para acercar y un zoom óptico de 2x para alejar 1. Además, el iPhone 13 Pro Max tiene una batería que dura hasta 28 horas
-</p>
-                    <img src="iphone.jpeg" height="200px" width="200px">
-                </article>
+                    <article>
+                    
+                        <h1 id="contacto" >CONTACTANOS</h1>
+                        
+                            <form action="" method="">
+                                <label  for="nom">Nombre: </label>
+                                <input class="input-text" id="nom" type="text" maxlength="18" required>
+                                <br>
+                                <label for="correo">Correo:</label>
+                                <input class="input-text" type="email" placeholder="Correo electonico" required>
+                                <br>
+                                <label  for="num">Numero: </label>
+                                <input class="input-text" id="num" type="number" maxlength="10" required>
+                                <br>
+                                <label  for="msg">Mensaje: </label>
+                                <input class="input-text" id="msg" type="text" maxlength="100" required>
+                                <br>
+                            </form>
+                    <button class="bot">Enviar</button>
+                    <br>                    
+                  </article>
+                  
+                        </div>
+                </div>
+               
             </section>
         </main>
-        <footer>Miguel Angel Flores Perez, Grupo C1</footer>
+        
+        <footer>
+            Miguel Angel Flores Perez, Grupo C1</footer>
     
 </body>
 </html>

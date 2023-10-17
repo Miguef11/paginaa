@@ -1,0 +1,56 @@
+.cont-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.tarjeta{
+   
+    border: 1px solid #76877d;
+    width: 400px;
+
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: #96958a 10px 5px 8px;
+
+ 
+}
+.tarjeta:hover{
+    background-color: #bfbce9;
+   
+}
+.tarjeta img{
+    width: 250px;
+    height: 300px;
+    
+}
+.titulo-tarjeta{
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #88b8a9;
+    background-color: #b2cbae;
+    font-size: 20px;
+
+}
+.tarjeta div{
+    padding: 0px;
+}
+.descripcion{
+    text-align: justify;
+}
+.precio{
+    text-align: center;
+}
+.tarjeta button{
+    padding: 10px;
+    background-color: #76877d;
+    color:#dbddb4;
+    font-size: 15px;
+    border: 3px solid #96958a;
+    cursor: pointer;  
+}
+.tarjeta button:hover{
+    background-color: #71ad79 ;
+    width: 100px;
+    height: 50px;
+}
