@@ -15,7 +15,9 @@ header{
 }
 .divTitulo{
     flex: 80%;
+
 }
+
 nav{
     background-color: #1f1f20;
     color: wheat;
@@ -66,26 +68,63 @@ article button:hover{
     font-size: 20px;
     border: 3px solid #96958a;
 }
-.tab{
-    background-color: #745d3b;
-    justify-content: right;
+.conte{
     display: flex;
-    
-}
-.tab img{
-  margin-left: 500px;
+    flex-direction: row;
+    justify-content: space-between;
   
 }
+.tablaa{
+    background-color: #745d3b;
+   float: left;
+
+}
+.tablaa img{
+   float: right;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #76877d;
+  }
+
+  label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
 footer {   
     background-color: #4e5c5a ;
     color: bisque;
     padding: 20px;
 }
-@media screen and(max-width:700px){
-    nav{
-        flex-flow: column;
-    }
-}
+
 .b1{
     background-color: #1f1f20;
     font-size: 20px;
@@ -95,4 +134,82 @@ footer {
 }
 .cont{
     background-color: #acd40d;
+}
+.cont-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.tarjeta{
+   
+    border: 1px solid #76877d;
+    width: 250px;
+
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: #96958a 10px 5px 8px;
+
+ 
+}
+.tarjeta:hover{
+    background-color: #bfbce9;
+   
+}
+.tarjeta img{
+    width: 200px;
+    height: 250px;
+    
+}
+.titulo-tarjeta{
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #88b8a9;
+    background-color: #b2cbae;
+    font-size: 20px;
+
+}
+.tarjeta div{
+    padding: 0px;
+}
+.descripcion{
+    text-align: justify;
+}
+.precio{
+    text-align: center;
+}
+.tarjeta button{
+    padding: 10px;
+    background-color: #76877d;
+    color:#dbddb4;
+    font-size: 15px;
+    border: 3px solid #96958a;
+    cursor: pointer;  
+}
+.tarjeta button:hover{
+    background-color: #71ad79 ;
+    width: 100px;
+    height: 50px;
+}
+@media screen and(max-width:1024px){/*tablet*/
+    .tarjeta{
+        width: 218px;
+}
+.tarjeta img{
+    width: 100px;
+    height: 180px;
+}
+    }
+@media screen and(max-width:767px){/*celular*/
+       .tarjeta{
+        width: 330px;
+}
+.tarjeta img{
+    width: 280px;
+    height: 130px;
+} 
+nav{
+        flex-flow: column;
+    }
+
 }
