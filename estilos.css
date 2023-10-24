@@ -5,6 +5,7 @@
 }
 body{
     font-size: large;
+display: table-row-group;
 }
 header{
     display: flex;
