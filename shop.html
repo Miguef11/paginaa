@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mopris Interprise</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+-->
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-black navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:gatecorp@gmail.com">mopris@interprise.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:283-874-4729">283-874-4729</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                
+                </div>
+            </div>
+        </div>
+    </nav>
+ 
+    <nav class="navbar navbar-expand-lg navbar-light shadow bg-black">
+        <div class="container d-flex  justify-content-between align-items-center">
+
+            <a class="navbar-brand text-white logo h1 align-self-center" href="index.html">
+                Mopris
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="shop.html">Tienda</a>
+                        </li>
+                        <li class="nav-item text-white">
+                            <a class="nav-link text-white" href="contact.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-white mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none " href="#">
+                        <i class="fa fa-fw fa-user text-white mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+ 
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- Start Content -->
+    <div class="container py-5">
+        <div class="row">
+
+            <div class="col-lg-3">
+                <h1 class="h2 pb-4">Productos</h1>
+                <ul class="list-unstyled templatemo-accordion">
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#compu">
+                            Compuertas logicas
+                           
+                        </a>
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#ard">Arduino</a>
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#jum">Jumpers</a>
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#sen">Sensores</a>
+                    </li>
+                 
+                    
+                </ul>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="row">
+                
+                    <div class="col-md-6 pb-4">
+                        <div class="d-flex">
+                            <select class="form-control">
+                                <option>Ordenar por</option>
+                                <option>Precio (menor a mayor)</option>
+                                <option>Precio (mayor a menor)</option>
+                                <option>De la A a la Z</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="iphone.webp">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body" id="compu">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Cd4011be </a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>Compuerta Nand Cuadruple de 2 entrada</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 100pzas: <b><span style="text-decoration: line-through; color: red;">$750</span> $599</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://mvelectronica.s3.us-east-2.amazonaws.com/productos/CD4001/6054e6849a700.webp">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Cd4001be</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>Compuerta Nor cuadruple de 2 entrada</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 100pzas: <b><span style="text-decoration: line-through; color: red;">$850</span> $650</b></p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://mvelectronica.s3.us-east-2.amazonaws.com/productos/CD4071/6054efd246686.webp">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Cd4071bd</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>Compuerta OR cuadruple de 2 entradas</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 100pzas: <b>$800</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://mvelectronica.s3.us-east-2.amazonaws.com/productos/7402/6054fb60d00fa.webp">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">74ls02</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>Compuerta logica Nor cuadruple 2 entradas</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 100pzas: <b>$999</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://mvelectronica.s3.us-east-2.amazonaws.com/productos/7404/614bad5ea4540.webp">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">74ls04 7404 </a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>Compuertas logicas Not SextupleL</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 100pzas: <b>$999</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://mvelectronica.s3.us-east-2.amazonaws.com/productos/7427/6054ca6f9e2af.webp">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.html" class="h3 text-decoration-none">74ls24</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>Compuerta logica Nor triple de 3 entradas</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 100pzas: <b><span style="text-decoration: line-through; color: red;">$1499</span> $1299</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://th.bing.com/th/id/OIP.os15Mnyp8OhZwVVYP7B7IwHaG9?w=200&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body" id="jum">
+                                <a href="shop-single.html" class="h3 text-decoration-none"></a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li>Jumpers</li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 100pzas: <b><span style="text-decoration: line-through; color: red;">$4499</span> $2299</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://th.bing.com/th/id/OIP.MnEVMzPNkkhmgLGYnHJXzwAAAA?w=302&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" >
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body" id="ard">
+                                <a href="shop-single.html" class="h3 text-decoration-none">Arduino uno<br><br><br><br></a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 10pzas: <b><span style="text-decoration: line-through; color: red;">$5499</span> $3299</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="https://www.bing.com/th?id=OPHS.CMToKtmWItjVXQ474C474&o=5&pid=21.1&w=160&h=160&qlt=100&dpr=1.3">
+                                <div id="sen" class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn bg-dark text-white" href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn bg-dark text-white mt-2" href="#"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body" id="sen">
+                                <a href="shop-single.html" class="h3 text-decoration-none" >Sensor ultrasonico</a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li></li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0">Precio 10pzas: <b><span style="text-decoration: line-through; color: red;">$3499</span> $2299</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+   
+                    
+                    <footer class="bg-dark" id="tempaltemo_footer">
+                        <div class="container">
+                            <div class="row">
+                
+                                <div class="col-md-4 pt-5">
+                                    <h2 class="h2 text-white border-bottom pb-3 border-light logo">Mopris Interprise</h2>
+                                    <ul class="list-unstyled text-light footer-link-list">
+                                        <li>
+                                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                                            Calle 3 A Sur 5759, El Cerrito, Puebla, 72440
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone fa-fw"></i>
+                                            <a class="text-decoration-none" href="tel:283-874-4729">283-874-4729</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope fa-fw"></i>
+                                            <a class="text-decoration-none" href="mailto:info@company.com">mopris@interprise.com</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                
+                                <div class="col-md-4 pt-5">
+                                    <h2 class="h2 text-light border-bottom pb-3 border-light" >Productos</h2>
+                                    <ul class="list-unstyled text-light footer-link-list">
+                                        <li><a class="text-decoration-none" href="shop.html">Compuertas logicas</a></li>
+                                        <li><a class="text-decoration-none" href="shop.html">Arduino</a></li>
+                                        <li><a class="text-decoration-none" href="shop.html">Jumpers</a></li>
+                                        <li><a class="text-decoration-none" href="shop.html">Sensores</a></li>
+                                    </ul>
+                                </div>
+                
+                                <div class="col-md-4 pt-5">
+                                    <h2 class="h2 text-light border-bottom pb-3 border-light">Mas informacion</h2>
+                                    <ul class="list-unstyled text-light footer-link-list">
+                                        <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                                        <li><a class="text-decoration-none" href="about.html">Nosotros</a></li>
+                                        <li><a class="text-decoration-none" href="contact.html">Contacto</a></li>
+                                    </ul>
+                                </div>
+                
+                            </div>
+                
+                            <div class="row text-light mb-4">
+                                <div class="col-12 mb-3">
+                                    <div class="w-100 my-3 border-top border-light"></div>
+                                </div>
+                                <div class="col-auto me-auto">
+                                    <ul class="list-inline text-left footer-icons">
+                                        <li class="list-inline-item border border-light rounded-circle text-center">
+                                            <a rel="nofollow" class="text-light text-decoration-none" target="_blank" href="http://fb.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                                        </li>
+                                        <li class="list-inline-item border border-light rounded-circle text-center">
+                                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                                        </li>
+                                        <li class="list-inline-item border border-light rounded-circle text-center">
+                                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                                        </li>
+                                        <li class="list-inline-item border border-light rounded-circle text-center">
+                                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="subscribeEmail">Correo electronico</label>
+                                    <div class="input-group mb-2">
+                                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Correo electronico">
+                                        <div class="input-group-text btn-wite text-black">Suscribirse</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="w-100 bg-black text-light py-3">
+                            <p>Miguel Flores-Mario Jimenez-Daniel Del Valle-Ever Ramirez</p>
+                            <p>Universidad del Valle de Puebla</p>
+                            <p>Ingenieria en Sistemas y Software</p>
+                            <p>Grupo 2C2</p>
+                    </footer>
+                </footer>
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
